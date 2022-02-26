@@ -1,0 +1,13 @@
+.body{
+    border: 2px solid black;
+    margin: 40px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 5px solid black;
+}
+#customers{
+    margin-top: 23px;
+}
