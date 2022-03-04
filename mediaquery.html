@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0px auto;
+            flex-wrap: wrap;
+            
+        }
+        .food{
+            border: 3px solid yellowgreen;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            /* .container{ */
+                /* flex-direction: column; */
+            }
+            .container .food{
+                background-color: rosybrown;
+
+            }
+            
+        }
+        @media (min-width: 120px) {
+            .container .food{
+                background-color: skyblue;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facere reiciendis saepe sed, ex quae tenetur neque minima repellendus adipisci architecto, quia inventore, accusantium temporibus sunt enim autem porro molestias.</p>
+        </div>
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Doloremque laboriosam fuga ipsam, accusamus aut quod, inventore distinctio mollitia rem quos doloribus cupiditate molestiae sapiente labore voluptas possimus? Id provident consequuntur eaque doloribus est voluptates, omnis quia pariatur consectetur!</p>
+        </div>
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Eos hic enim excepturi, mollitia veritatis obcaecati error, quo assumenda labore vel ducimus praesentium. Rerum cum quod qui deleniti necessitatibus fuga a. Molestiae cumque est nemo eum cupiditate necessitatibus quaerat?</p>
+        </div>
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Nobis aliquam dolores ex illo delectus maiores corrupti in voluptate quas, velit tempore nam aut voluptates consequuntur perspiciatis cupiditate debitis sequi a, ipsam, odit optio tenetur! Mollitia voluptate maiores tempora!</p>
+        </div>
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Maxime consequatur numquam magnam quasi id impedit iste dolore iusto minima, repellendus exercitationem iure saepe repellat accusamus quae esse laudantium reprehenderit eligendi enim commodi tempora harum. Temporibus placeat commodi ex!</p>
+        </div>
+        <div class="food">
+            <img src="media/download.jpg" alt="">
+            <p>Similique cumque, maiores itaque ut, commodi, temporibus officia deleniti sint quod vitae velit repudiandae! Doloribus at aperiam aliquam, consequatur ullam ratione repellat odio numquam quia beatae? Iusto rem repellat maxime!</p>
+        </div>*40
+    </div>
+</body>
+</html>
